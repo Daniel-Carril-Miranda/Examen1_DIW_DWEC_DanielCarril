@@ -1,5 +1,5 @@
 // Author: Daniel Carril Miranda
-// GitHub: 
+// GitHub: https://github.com/Daniel-Carril-Miranda/Examen1_DIW_DWEC_DanielCarril.git
 document.addEventListener("DOMContentLoaded", () => {
     
     console.log("JS bien enlazado"); /* Mensaje para coprobar que el js está funcionando */
