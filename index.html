@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Examen</title>
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="favicon" src="favicon.ico" type="image/x-ico"> 
+</head>
+<body>
+    <header>
+        <h1>Calculadora de área, perímetro y diagonal de un rectángulo</h1>
+    </header>
+    <section> 
+        <label class="lab" for="lenght">Longitud:</label>
+        <input type="number" name="lenght" id="lenght" placeholder="Ingrese longitud"> <!-- El placeholder mete un mensaje dentro de la caja del input -->
+        <br>
+        <label class="lab" for="width">Ancho:</label>
+        <input type="number" name="width" id="width" placeholder="Ingrese anchura">
+    </section>
+    <footer> 
+        <button id="btn">Calcular</button>
+        <p id="area"></p>
+        <p id="perimeter"></p>
+        <p id="diagonal"></p>
+    </footer>
+    <script src="index.js"></script> 
+</body>
+</html>
