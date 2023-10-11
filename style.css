@@ -1,8 +1,8 @@
-*{
+*{ /* Esto afecta a todo el documento, aquí lo que hago es quitar espacios de márgenes globales para ceñir la página */
     margin: 0px;
     padding: 0px;
 }
-
+/* Aquí ajusto el cuerpo total y la disposición */
 body{
     display: flex;
     flex-direction: column;
@@ -10,12 +10,12 @@ body{
     gap: 2em;
     font-size: larger;
     font-family: 'Courier New', Courier, monospace;
-    margin-top: 3em; 
+    margin-top: 3em; /* Sólo pongo margen top para darle hueco desde arriba */
 }
 .lab{
     font: bold;
 }
-
+/* Para darle espacio entre los inputs */
 input{
     margin: .5em;
 }
