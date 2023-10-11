@@ -19,13 +19,13 @@ body{
 input{
     margin: .5em;
 }
-
+/* Defino el botón */
 button{
     background-color: #007BFF;
     color: white;
     font-size: larger;
     padding: .5em 1em;
-    &:hover{ 
+    &:hover{ /* Esto se puede poner fuera o dentro, trnasforma el cusor cuando se sitúa encima del objeto */
         cursor: pointer;
     }
 }
