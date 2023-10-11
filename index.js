@@ -8,5 +8,15 @@ document.addEventListener("DOMContentLoaded", () => {
     const perimeterShow = document.getElementById("perimeter");
     const diagonalShow = document.getElementById("diagonal");
 
+    btn.addEventListener("click", () =>{ 
+        
+        console.log("Boton bien enlazado"); 
+        
 
+        const lenght = parseFloat(document.getElementById("lenght").value);
+        const width = parseFloat(document.getElementById("width").value);
+        
+
+
+    });
 });
