@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    font-size: larger;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 3em; 
+}
+.lab{
+    font: bold;
+}
+
+input{
+    margin: .5em;
+}
+
+button{
+    background-color: #007BFF;
+    color: white;
+    font-size: larger;
+    padding: .5em 1em;
+    &:hover{ 
+        cursor: pointer;
+    }
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+}
